@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "ffdd8ab56eb507ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f216227fd834253",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Enthalpy.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8c59a75f798f449c",
+    "type": "split",
+    "children": [
+      {
+        "id": "285beaed173ffd46",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cba172c97bd352b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2e5c1b278cd004ad",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aa963de01ba92df1",
+    "type": "split",
+    "children": [
+      {
+        "id": "9e37f5889a570100",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e099290b475d96ae",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Enthalpy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Enthalpy.md",
+    "Heat Transfer.md",
+    "isobaric.md",
+    "Vapor Dome.md",
+    "Ideal Gas.md",
+    "Conduction.md",
+    "Untitled.md",
+    "Thermodynamics.md",
+    "Fluid Mechanics.md"
+  ]
+}
