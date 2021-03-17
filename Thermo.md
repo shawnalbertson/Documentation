@@ -1,4 +1,7 @@
 
+## Lingering questions
+For the energy input into a thermal desalination plant, why is enthalpy of vaporization evaluated at the boiling temperature for pure water instead of including the boiling point elevation?
+
 ## Readings
 ### Atkins
 - ch.1: Temperature
@@ -8,6 +11,9 @@
 2.1 - 2.5 (Day 4)
 - Quasiequilibrium processes
 - Work and Heat
+
+2.6
+- Energy analysis of cycles
 
 3.2 
 - Saturation points

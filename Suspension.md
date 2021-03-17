@@ -1,0 +1,14 @@
+- Camber
+    - Negative generally so tire is normal in hard turns
+    - Positive in rare cases with huge amounts of suspension
+- Toe
+    - Most vehicles are toe in because more stable
+        - Snow plow effect pushes wheels to center rather than outside
+- Bump steer
+    - As suspension cycles, one wheel 
+- Ackerman
+    - Wheels turn at different rates
+- Trail 
+    - Distance between steering axis and contact patch
+- Rake / offset
+    - Distance between wheel axis and steering axis
