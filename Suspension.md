@@ -5,10 +5,12 @@
     - Most vehicles are toe in because more stable
         - Snow plow effect pushes wheels to center rather than outside
 - Bump steer
-    - As suspension cycles, one wheel 
+    - Wheel turns as suspension is cycled
 - Ackerman
     - Wheels turn at different rates
 - Trail 
     - Distance between steering axis and contact patch
 - Rake / offset
     - Distance between wheel axis and steering axis
+- Castor angle / kingpin inclination
+    - influence on self-centering

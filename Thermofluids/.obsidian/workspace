@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "cycles/Carnot Cycle.md",
-            "mode": "source"
+            "file": "cycles/Thermodynamic cycle.md",
+            "mode": "preview"
           }
         }
       }
@@ -40,8 +40,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "entropy",
-                "matchingCase": true,
+                "query": "cycle",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -69,11 +69,11 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cycles/Carnot Cycle.md",
+                "file": "cycles/Thermodynamic cycle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -82,19 +82,18 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "lastOpenFiles": [
+    "cycles/Thermodynamic cycle.md",
+    "laws/Second Law of Thermo.md",
+    "cycles/Refrigeration cycles.md",
+    "cycles/Power cycles.md",
     "cycles/Carnot Cycle.md",
-    "Entropy.md",
-    "Reversible.md",
-    "Incompressible.md",
-    "Laws/First Law of Thermo.md",
-    "Irreversible process.md",
+    "Thermal efficiency.md",
+    "Pumps.md",
+    "states/Entropy.md",
     "Reversible process.md",
-    "Thermodynamics.md",
-    "isothermal.md",
-    "Quasiequilibrium.md"
+    "states/Enthalpy.md"
   ]
 }

@@ -1,11 +1,12 @@
 
+# Second Law: [[Entropy]] balance
 Clausius statement: 
 - Heat transfer cannot spontaneously transfer from cold to hot
 Kelvin-Planck Statement:
 - No [[thermodynamic cycle]] can exist without a cold sink
 
 
-- The [[entropy]] of the universe is increasing
+- The [[Entropy]] of the universe is increasing
 
 
 For a [[Closed system]]

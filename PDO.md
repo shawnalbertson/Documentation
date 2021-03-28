@@ -17,3 +17,7 @@ Behavior of optimization algorithms
 - multiple restarts
 - locally unidentifiable
     - Fix a parameter
+
+## NB3 Pareto
+- sinew plots
+- use gr.eval_min()

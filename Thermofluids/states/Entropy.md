@@ -9,7 +9,8 @@
 
 [[Isentropic]] means zero change in entropy
 - Must be both [[Adiabatic]] & [[Reversible process]]
-- Two ways to change entropy in a system
+
+Two ways to change entropy in a system
 1. Heat transfer to/from the system
 	- Same addition of heat in a low temperature environment creates a larger change in entropy
 2. Internal irreversibilities
