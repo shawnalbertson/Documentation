@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "cycles/Thermodynamic cycle.md",
-            "mode": "preview"
+            "file": "README.md",
+            "mode": "source"
           }
         }
       }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "cycles/Thermodynamic cycle.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,6 +85,8 @@
     "width": 300
   },
   "lastOpenFiles": [
+    "README.md",
+    "Untitled 1.md",
     "cycles/Thermodynamic cycle.md",
     "laws/Second Law of Thermo.md",
     "cycles/Refrigeration cycles.md",
@@ -92,8 +94,6 @@
     "cycles/Carnot Cycle.md",
     "Thermal efficiency.md",
     "Pumps.md",
-    "states/Entropy.md",
-    "Reversible process.md",
-    "states/Enthalpy.md"
+    "states/Entropy.md"
   ]
 }
