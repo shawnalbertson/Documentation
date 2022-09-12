@@ -12,6 +12,8 @@ Started on August 19, 2022
    :maxdepth: 2
    :caption: Contents:
 
+   vector
+
 
 First zettel
 ------------
@@ -125,3 +127,9 @@ source/docs/portfolio/index.rst::
       /portfolio/file1
       /portfolio/file2
 
+
+Dispersion Relation for water waves
+-----------------------------------
+
+.. math::
+   \omega^2 = gk tanh(kh)
