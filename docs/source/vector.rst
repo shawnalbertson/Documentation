@@ -23,12 +23,14 @@ Column by row results in ixj matrix of rank 2
 
 Index Killer
 -------------
+
 .. math::
     a_i \delta_{ij} = a_j
 
 Multiplying a row vector by the identity matrix turns it into a column vector.
 
 Identity matrix a.k.a. "kronecker delta"
+
 .. math::
     \left\{
         \begin{array}{lr}
@@ -42,7 +44,7 @@ Del operator
 A vector of spatial derivatives
 
 .. math::
-    \symbf{∇} = \left( \frac{\partial}{\partial x_1}, \frac{\partial}{\partial x_2}, \frac{\partial}{\partial x_3} \right\) = \frac{\partial}{\partial x_i} \right)
+    \symbf{∇} = \frac{\partial}{\partial x_1}, \frac{\partial}{\partial x_2}, \frac{\partial}{\partial x_3} \right\) = \frac{\partial}{\partial x_i}
 
 The gradient is the del operator on a scalar field showing the rate of change of the scalar in each direction. For example, the pressure in a fluid :math:`\symbf{∇}\rho`
 
@@ -55,6 +57,7 @@ Divergence
 ----------
 
 Dot product of del operator with a vector
+
 .. math::
     \symbf{∇} \cdot \mathbf{a} = \frac{\partial a_i}{\partial x_i}
 
@@ -62,5 +65,6 @@ on a vector
 -----------
 
 If applied directly to a vector without a dot product, a matrix is produced
+
 .. math::
     \symbf{∇}\mathbf{a} = \frac{\partial a_i}{\partial x_j}
