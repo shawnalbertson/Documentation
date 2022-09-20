@@ -68,3 +68,21 @@ If applied directly to a vector without a dot product, a matrix is produced
 
 .. math::
     \symbf{∇}\mathbf{a} = \frac{\partial a_i}{\partial x_j}
+
+curl of curl
+------------
+
+.. math::
+    \boldsymbol{a} \times(\boldsymbol{b} \times c)=\boldsymbol{b}(\boldsymbol{a} \cdot \boldsymbol{c})-\boldsymbol{c}(\boldsymbol{a} \cdot \boldsymbol{b})
+
+*proof*
+
+.. math::
+    \begin{aligned}
+    \boldsymbol{d} &=\boldsymbol{a} \times(\boldsymbol{b} \times \boldsymbol{c}) \\
+    d_m &=\epsilon_{m n i} a_n\left(\epsilon_{i j k} b_j c_k\right) \\
+    &=\epsilon_{i m n} \epsilon_{i j k} a_n b_j c_k \\
+    &=\left(\delta_{m j} \delta_{n k}-\delta_{m k} \delta_{n j}\right) a_n b_j c_k \\
+    &=b_m a_k c_k-c_m a_j b_j \\
+    &=[\boldsymbol{b}(\boldsymbol{a} \cdot \boldsymbol{c})]_m-[\boldsymbol{c}(\boldsymbol{a} \cdot \boldsymbol{b})]_m
+    \end{aligned}
