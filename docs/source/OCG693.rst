@@ -1,0 +1,148 @@
+Air-Sea interactions
+=====================
+
+Governing equations
+++++++++++++++++++++
+
+Material Derivative
+-------------------
+
+.. math::
+    \frac{D}{D t}=\frac{\partial}{\partial t}+\mathbf{u} \cdot \nabla=\frac{\partial}{\partial t}+u_i \frac{\partial}{\partial x_i}
+
+Conservation of mass
+---------------------
+for an incompressible fluid
+
+.. math::
+    \nabla \cdot \mathbf{u} = frac{\partial u_i}{\partial x_i} = 0
+
+Equation of motion
+-------------------
+The rate of change of momentum of a portion of fluid is equal to the sum of all forces acting on that portion of fluid.
+
+.. math::
+    \rho \frac{D u_i}{D t}=\rho F_i+\frac{\partial \sigma_{i j}^T}{\partial x_j}
+
+:math:`F_i` is the total volume or 'body' force, and :math:`\sigma_{ij}^T` is the total surface stress tensor
+
+Stress tensor
+-------------
+
+Within the stress tensor, pressure is isotropic (equal in all directions), while shear is anisotropic. The shear stress is the component of stress which doesn't come from pressure, known as `deviatoric` stress.
+
+.. math::
+    \sigma_{i j}^T=-p \delta_{i j}+\sigma_{i j}, \quad p=-\frac{1}{3} \sigma_{i i}
+
+where :math:`p` is the pressure and :math:`\sigma_{ij}` is the deviatoric stress tensor.
+
+Stress strain-rate relation for a newtonian fluid
+---------------------------------------------------------
+
+Incompressible fluid has linear relationship between deviatoric stress tensor and strain rate tensor.
+
+.. math::
+    \sigma_{i j}=2 \mu e_{i j}
+
+Strain-rate tensor
+------------------------
+
+e_{i j}=\frac{1}{2}\left(\frac{\partial u_i}{\partial x_j}+\frac{\partial u_j}{\partial x_i}\right)
+
+:math:`\mu` is the molecular viscosity of the fluid
+
+Navier-Stokes equation
+------------------------
+
+.. math::
+    \frac{D\mathbf{u}}{Dt} = - \frac{1}{\rho}\nabla p + \mathbf{F} + \nu\nabla^2\mathbf{u}
+
+.. math::
+    \frac{D u_i}{Dt} = - \frac{1}{\rho} \frac{\partial p}{\partial x_i} + F_i + \nu \frac{\partial ^2 u_i}{\partial x_j \partial x_j}
+
+:math:`\nu = \mu / \rho` is the kinematic viscosity
+
+N-S in moving frame
+-------------------
+Navier-Stokes in a reference frame rotating steadily relative to absolute frame with angular velocity :math:`\boldsymbol{\Omega}`
+
+\frac{D \mathbf{u}}{D t}+2 \boldsymbol{\Omega} \times \mathbf{u}=-\frac{1}{\rho} \nabla p+\mathbf{F}-\boldsymbol{\Omega} \times(\boldsymbol{\Omega} \times \mathbf{x})+\nu \nabla^2 \mathbf{u}
+
+Where :math:`2\boldsymbol{\Omega} \times \mathbf{u}` is the coriolis force and :math:`-\boldsymbol{\Omega} \times(\boldsymbol{\Omega} \times \mathbf{x})`
+
+First law of thermodynamics (heat equation)
+
+.. math::
+    c_p \frac{D T}{D t}-\frac{\beta T}{\rho} \frac{D p}{D t}=\frac{k}{\rho} \nabla^2 T+Q+\Phi
+
+:math:`c_p` is specific heat at constant pressure, \beta is coefficient of thermal expansion, :math:`k` is thermal conductivity, :math:`Q` is the rate of heat addition per unit mass by internal heat source, :math:`Phi` is rate of dissipation of mechanical energy per unit mass due to viscosity
+
+Boundary conditions
+++++++++++++++++++++
+
+Boundary surface
+----------------
+
+Fixed
+
+.. math::
+    F(x,y,z) = 0
+
+Moving ocean surface boundary 
+
+.. math::
+    F(x, y, z, t)=\zeta(x, y, t)-z=0
+
+Unit vector normal to boundary
+
+.. math::
+    \mathbf{n}=\frac{\nabla F}{|\nabla F|}
+
+Solid (a) - fluid (b) boundary
+------------------------------
+
+No fluid velocity
+
+.. math::
+    \mathbf{u}^b = 0
+
+Continuity of temperature
+
+.. math::
+    T^a = T^b
+
+Continuity of heat flux
+
+.. math::
+    k^a\mathbf{n}\cdot\nablaT^a = k^b\mathbf{n}\cdot\nablaT^b
+
+:math:`k` is the thermal conductivity
+
+Two incompressible fluids
+------------------------------
+
+Material surface for both media
+
+.. math::
+    \frac{DF}{Dt} = 0
+
+Continuity of velocity
+
+.. math::
+    \mathbf{u}^a = \mathbf{u}^b
+
+Continuity of tangential stress
+
+.. math::
+    \sigma_{i j}{ }^a t_i n_j=\sigma_{i j}{ }^b t_i n_j
+
+.. math::
+    \mu^a e_{i j}{ }^a t_i n_j=\mu^b e_{i j}{ }^b t_i n_j
+
+Continuity of normal stress
+
+.. math::
+    \left(\sigma_{i j}^T\right)^a n_i n_j=\left(\sigma_{i j}^T\right)^b n_i n_j-\text { surface tention }
+
+.. math::
+    p^a - 2\mu^a e_{i j}{}^a n_i n_j= p^b - 2\mu^b e_{i j}{}^b n_i n_j -\text { surface tention }

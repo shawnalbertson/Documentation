@@ -44,7 +44,7 @@ Del operator
 A vector of spatial derivatives
 
 .. math::
-    \symbf{∇} = \frac{\partial}{\partial x_1}, \frac{\partial}{\partial x_2}, \frac{\partial}{\partial x_3} \right\) = \frac{\partial}{\partial x_i}
+    \symbf{∇} = ( \frac{\partial}{\partial x_1}, \frac{\partial}{\partial x_2}, \frac{\partial}{\partial x_3} ) = \frac{\partial}{\partial x_i}
 
 The gradient is the del operator on a scalar field showing the rate of change of the scalar in each direction. For example, the pressure in a fluid :math:`\symbf{∇}\rho`
 
