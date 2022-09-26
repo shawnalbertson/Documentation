@@ -47,7 +47,8 @@ Incompressible fluid has linear relationship between deviatoric stress tensor an
 Strain-rate tensor
 ------------------------
 
-e_{i j}=\frac{1}{2}\left(\frac{\partial u_i}{\partial x_j}+\frac{\partial u_j}{\partial x_i}\right)
+.. math::
+    e_{i j}=\frac{1}{2}\left(\frac{\partial u_i}{\partial x_j}+\frac{\partial u_j}{\partial x_i}\right)
 
 :math:`\mu` is the molecular viscosity of the fluid
 
@@ -66,7 +67,8 @@ N-S in moving frame
 -------------------
 Navier-Stokes in a reference frame rotating steadily relative to absolute frame with angular velocity :math:`\boldsymbol{\Omega}`
 
-\frac{D \mathbf{u}}{D t}+2 \boldsymbol{\Omega} \times \mathbf{u}=-\frac{1}{\rho} \nabla p+\mathbf{F}-\boldsymbol{\Omega} \times(\boldsymbol{\Omega} \times \mathbf{x})+\nu \nabla^2 \mathbf{u}
+.. math::
+    \frac{D \mathbf{u}}{D t}+2 \boldsymbol{\Omega} \times \mathbf{u}=-\frac{1}{\rho} \nabla p+\mathbf{F}-\boldsymbol{\Omega} \times(\boldsymbol{\Omega} \times \mathbf{x})+\nu \nabla^2 \mathbf{u}
 
 Where :math:`2\boldsymbol{\Omega} \times \mathbf{u}` is the coriolis force and :math:`-\boldsymbol{\Omega} \times(\boldsymbol{\Omega} \times \mathbf{x})`
 
@@ -114,7 +116,7 @@ Continuity of temperature
 Continuity of heat flux
 
 .. math::
-    k^a\mathbf{n}\cdot\nablaT^a = k^b\mathbf{n}\cdot\nablaT^b
+    k^a\mathbf{n}\cdot\nabla T^a = k^b\mathbf{n}\cdot\nabla T^b
 
 :math:`k` is the thermal conductivity
 
