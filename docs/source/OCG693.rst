@@ -15,7 +15,7 @@ Conservation of mass
 for an incompressible fluid
 
 .. math::
-    \nabla \cdot \mathbf{u} = frac{\partial u_i}{\partial x_i} = 0
+    \nabla \cdot \mathbf{u} = \frac{\partial u_i}{\partial x_i} = 0
 
 Equation of motion
 -------------------
