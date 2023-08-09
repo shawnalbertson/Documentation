@@ -1,0 +1,5 @@
+- Examples of irriversibilities
+	- friction
+	- free expansion
+	- heat transfer that is not [[Isothermal]]
+	- mixing

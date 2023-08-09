@@ -1,0 +1,2 @@
+In MATLAB signal processing toolbox, this function operates on columns
+If the signal is units meters, the output is units $m^2 \cdot s/\text{rad}$. Grilli's figures showing the spectrum from the NWT use units $m^s\cdot s$ or $m^2 / Hz$, and so the output has to be divided by $2\pi$ to get the units to match

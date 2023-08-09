@@ -1,0 +1,3 @@
+- AKA quasi-static process
+- Modeled such that departure from thermodynamic equilibrium is at most infintesimal
+- Maximum [[Work]] is done

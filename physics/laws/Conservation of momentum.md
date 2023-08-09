@@ -1,0 +1,1 @@
+The force which results from interaction with a fluid is equal to the rate of change of momentum given to the fluid
