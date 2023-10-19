@@ -1,0 +1,1 @@
+An apparent force acting on particles moving in a relative [[coordinate system]] 

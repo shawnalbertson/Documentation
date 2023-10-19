@@ -1,4 +1,12 @@
--  Density does not vary with pressure
+## For a fluid
+
+Divergence of the velocity field is zero
+$$\nabla \mathbf u = 0$$
+
+## For a gas
+
+
+- Density does not vary with pressure
 	- As a result, $c_v = c_p$
 - Internal energy depends only on temperature
 	- $u(T,P) \approx u(T)$

@@ -1,0 +1,1 @@
+Has a linear relationship between stress and rate of strain. This linear relationship known as [[viscosity]]

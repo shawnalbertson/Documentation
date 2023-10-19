@@ -1,0 +1,3 @@
+people getting mad at each other is like viscous dissipation at the molecular level. where conflicts are created at the societal level, they turn into friction when individual people yell at each other in the street
+
+families, groups - a social collection with some cohesion moves together as a vortex does, but has the tendency to break down into smaller ones. this feeling of disjointedness is like turbulence cascading energy down spatial scales and towards smaller ones, to their dissipation scale. but free will is like an ability to insert energy into this, to reform the dominant vortex, build larger from the smaller resultant pieces.
