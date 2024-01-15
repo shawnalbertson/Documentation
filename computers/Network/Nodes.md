@@ -1,0 +1,1 @@
+A basic building block of a [[Computer Network]]. Examples include hubs, modems, switches, or data terminal equipment

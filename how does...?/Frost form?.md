@@ -1,0 +1,1 @@
+Water vapor is deposited onto a growing ice crystal and freezes immediately without ever becoming liquid. (desublimation)

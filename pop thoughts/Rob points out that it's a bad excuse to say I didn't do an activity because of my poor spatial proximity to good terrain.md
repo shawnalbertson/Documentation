@@ -1,0 +1,1 @@
+- Justin drove 30 minutes a day to go rock climbing

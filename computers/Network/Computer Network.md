@@ -1,0 +1,1 @@
+Interconnected computing devices that can exchange data and share resources with each other. Networked devices use a system of rules called communication protocols to transmit information over physical or wireless technologies

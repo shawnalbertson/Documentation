@@ -1,0 +1,1 @@
+That is how I should have responded to Raul's comment about racism. 

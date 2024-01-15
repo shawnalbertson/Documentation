@@ -1,0 +1,1 @@
+A network architecture in which connected computers have equal powers and the ability to share resources

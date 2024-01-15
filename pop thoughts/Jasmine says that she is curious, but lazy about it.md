@@ -1,0 +1,1 @@
+- I feel I am the same way. Sometimes it is just so much more fun to wonder, and so hard to address ... "reality" (?) head on. As much skepticism on the word reality as I can muster given the logical leaning form of reality that we tend to imagine when we think of satisfying our curiosity.

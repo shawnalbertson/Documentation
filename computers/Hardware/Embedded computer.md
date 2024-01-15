@@ -1,0 +1,1 @@
+Like a raspberry pi or an odroid
