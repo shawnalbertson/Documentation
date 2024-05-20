@@ -1,2 +1,2 @@
-turbulent dissipation rate $\varepsilon$
+turbulent dissipation rate $\epsilon$
 
