@@ -1,0 +1,2 @@
+- tracking ocean outfall plumes with AUV's (Rogowski 2012)
+	- but still, why? could lead to better understandings of how to design ocean outfall plumes
