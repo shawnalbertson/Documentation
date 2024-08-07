@@ -1,0 +1,6 @@
+- gyroscope -> rotation
+- acclerometer -> linear motion
+- three sets of fiber optic coils, one for each direction
+- Takes advantage of sagnac effect
+- ![[Pasted image 20240807154314.png]]
+- light beam travels through coil in opposite directions. when there's no angular velocity, beams exit at same time. With angular velocity, a phase shift exist between the two signals of exiting light
